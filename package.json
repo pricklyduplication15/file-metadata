@@ -15,11 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-filemetadata"
+    "url": "git+https://github.com/freeCodeCamp/boilerplate-project-filemetadata.git"
   },
   "keywords": [
     "node",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-filemetadata/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-filemetadata#readme"
 }

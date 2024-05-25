@@ -19,6 +19,7 @@ app.post("/api/fileanalyse", upload.single("upfile"), (req, res) => {
   if (!req.file) {
     return res.status(400).send("No file uploaded");
   }
+  console.log(req.file); // Log the file details to debug
 
   const { originalname, mimetype, size } = req.file;
   res.json({ name: originalname, type: mimetype, size: size });
